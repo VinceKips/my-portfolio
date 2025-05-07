@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h1 {
+          color: blue;
+          font-family: verdana;
+          font-size: 300%;
+        }
+        p {
+          color: red;
+          font-family: courier;
+          font-size: 160%;
+        }
+        body {background-color: chartreuse;}
+        </style>
+        </head>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home </a> |
+        <a href="about.html">About Me</a> |
+        <a href="project.html">My Projects</a> |
+        <a href="contact.html">Contact Me</a>
+      </nav>
+    <form action="#" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+    
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="+254712345678"><br><br>
+    
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+    
+        <button type="submit">Submit</button>
+      </form>
+</body>
+</html>

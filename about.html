@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <style>
+    body {background-color:cadetblue;}
+    h1 {color: green;}
+  </style>
+  <nav>
+    <a href="index.html">Home </a> |
+    <a href="about.html">About Me</a> |
+    <a href="project.html">My Projects</a> |
+    <a href="contact.html">Contact Me</a>
+  </nav>
+    <h1>Educational Background & Professional Training</h1>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          padding: 20px;
+          background-color: rgb(71, 16, 65);
+        }
+    
+        h2 {
+          text-align: center;
+          color: grey;
+        }
+    
+        table {
+          width: 100%;
+          max-width: 800px;
+          margin: 0 auto;
+          border-collapse: collapse;
+          background-color: white;
+          box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+          border-radius: 8px;
+          overflow: hidden;
+        }
+    
+        thead {
+          background-color: cyan;
+          color: white;
+        }
+    
+        th, td {
+          padding: 12px 15px;
+          text-align: left;
+          border-bottom: 1px solid #ddd;
+        }
+    
+        tr:hover {
+          background-color: whitesmoke;
+        }
+    
+        @media (max-width: 600px) {
+          table, thead, tbody, th, td, tr {
+            display: block;
+          }
+    
+          th {
+            text-align: right;
+            padding-right: 30px;
+          }
+    
+          td {
+            text-align: right;
+            position: relative;
+            padding-left: 50%;
+          }
+    
+          td::before {
+            content: attr(data-label);
+            position: absolute;
+            left: 15px;
+            width: 45%;
+            padding-left: 15px;
+            font-weight: bold;
+            text-align: left;
+          }
+        }
+      </style>
+    </head>
+    <body>
+    
+      <table>
+        <thead>
+          <tr>
+            <th>Institution Name</th>
+            <th>Course</th>
+            <th>Year of Completion</th>
+            <th>Grade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Institution Name">University of Nairobi</td>
+            <td data-label="Course">Bachelor of Science in Computer Science</td>
+            <td data-label="Year of Completion">2022</td>
+            <td data-label="Grade">First Class</td>
+          </tr>
+          <tr>
+            <td data-label="Institution Name">Technical University of Kenya</td>
+            <td data-label="Course">Diploma in Web Development</td>
+            <td data-label="Year of Completion">2016</td>
+            <td data-label="Grade">Distinction</td>
+          </tr>
+          <tr>
+            <td data-label="Institution Name">Kenya High School</td>
+            <td data-label="Course">KCSE</td>
+            <td data-label="Year of Completion">2014</td>
+            <td data-label="Grade">Credit</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+      
+   
+</body>
+</html>

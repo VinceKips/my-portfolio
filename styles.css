@@ -1,0 +1,39 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #0077cc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    color: #0077cc;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.1em;
+  }
